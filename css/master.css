@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+   font-family: Arial, Tahoma;
+	user-select: none;
+    background-color: #FFFFFF;
+    
+}
+.container{
+    width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: auto;
+}
+/*start header*/
+.header{
+    overflow: hidden;
+    background-color: #FFF;
+    border: 1px solid #EEE;
+    cursor: pointer;
+}
+.header h2{
+    float: left;
+    margin-top: 15px;
+    
+}
+.header .links{
+    list-style: none;
+    float: right;
+    padding-left: 0px;
+    margin-top: 18px;
+    margin-right: 30%;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px;
+}
+.header .links li{
+     float: left;
+    margin-left: 10px;
+}
+/*end header*/
+/*start introduction*/
+.introduction{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F6F6F6;
+    text-align: center;
+    overflow: hidden;
+}
+.introduction h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.introduction p{
+    color: #444;
+    font-size: 15px;
+}
+/*end introduction*/
+/*start features*/
+.features{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.features .feature{
+    text-align: center;
+    float: left;
+    width: calc(96% / 3);
+   
+}
+.features .feature:not(:last-of-type){
+    margin-right: 2%;
+}
+.features .feature p{
+    color: #888;
+    line-height: 1.7;
+}
+/*end features*/
+/*start about-us*/
+.about-us{
+    background-color: #F6F6F6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.about-us .left{
+    float: left;
+    width: 400px;
+    height: 230px;
+    overflow: hidden;
+    
+}
+.about-us .left img{
+    height: 100%;
+    width: 100%;
+}
+.about-us .right{
+    float: left;
+    margin-left: 50px;
+}
+.about-us .right p{
+    color: #888;
+    line-height: 1.7;
+}
+/*end about-us*/
+/*start Numbers of People*/
+.numbers-of-peoples{
+ padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;   
+}
+.number{
+    width: calc(96% / 3);
+    text-align: center;
+    float: left;
+    color: #FFF;
+}
+.number:not(:last-of-type){
+    margin-right: 2%;
+}
+.number:nth-child(1){
+    background-color: #218C74;
+}
+.number:nth-child(2){
+    background-color: #227093;
+}
+.number:nth-child(3){
+    background-color: #B33939;
+}
+.number h2{
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.number p{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+/*end Numbers of People*/
+/*start Skills*/
+.Skills{
+    background-color: #F6F6F6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #333333;
+    overflow: hidden;
+}
+.Skills h2{
+    text-align: center;   
+}
+.skill{
+    display: flex;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.skill .skill-name{
+    font-weight: bold;
+    width: 140px;
+    text-align: center;
+    line-height: 30px;
+}
+.skill .skill-progress{
+    background-color: #FFF;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+}
+.skill .skill-progress span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color:#333333;
+    
+}
+/*end Skills*/
+/*start fotter*/
+.fotter{
+    background-color: #333333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF;
+    overflow: hidden
+}
+.fotter .right{
+    float: right;
+}
+.fotter .left{
+    float: left;
+}
+/*end fotter*/
